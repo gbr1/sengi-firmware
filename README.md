@@ -16,4 +16,5 @@ PWM frequency is low, so a "buzzing" sound is produced when motors are active.
 
 <br>
 <br>
+
 ***Copyright (c) 2019 Giovanni di Dio Bruno under MIT license.***
