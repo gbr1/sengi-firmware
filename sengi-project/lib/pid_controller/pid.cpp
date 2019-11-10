@@ -47,7 +47,7 @@ float Pid::compute(){
   c_i=c_i+(ki*error);
   c_i=checkMaxMin(c_i, minv, maxv);
   c_d=kd*(error-p_error);
-  c_out=kp*error+c_i-c_d*c_d;
+  c_out=kp*error+c_i+c_d;
   c_out=checkMaxMin(c_out, minv, maxv);
   p_error=error;
   return c_out;
