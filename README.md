@@ -7,9 +7,12 @@ Official repo for SENGI firmware
 - Clone this repo
 - Compile and upload on Sengi using ST-Link
 
+## Wiki
+
+Check [this wiki page](https://github.com/gbr1/sengi-firmware/wiki/How-upload-a-new-firmware) to learn how to upload a new firmware.
+
 ## To Do
 - Bin release
-- Upload guide
 
 ## Known issues
 PWM frequency is low, so a "buzzing" sound is produced when motors are active.
